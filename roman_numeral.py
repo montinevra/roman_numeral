@@ -10,7 +10,7 @@ def roman_from_int(t_num):
 	roman = ""
 
 	if t_num >= MAX_VALUE:
-		raise ValueError("input number must be less than " + str(MAX_VALUE))
+		raise ValueError(f"input number must be less than {MAX_VALUE}")
 		return
 	for i in roman_symbols:
 		while t_num >= i:
